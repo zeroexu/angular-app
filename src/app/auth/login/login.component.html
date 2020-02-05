@@ -34,7 +34,14 @@
         </tr>
       </table>
     </form>
-    <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+    <mat-progress-spinner
+      class="example-margin"
+      [color]="color"
+      [mode]="mode"
+      [value]="value"
+      [style.display]="showSpinner ? 'block' : 'none'"
+    >
+    </mat-progress-spinner>
   </mat-card-content>
   <mat-card-actions>
     <button mat-raised-button (click)="login()" color="primary">Login</button>

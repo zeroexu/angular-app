@@ -8,9 +8,9 @@ import {
   MatTableModule,
   MatToolbarModule,
   MatMenuModule,
-  MatIconModule,
-  MatProgressSpinnerModule
+  MatIconModule
 } from '@angular/material';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 @NgModule({
   imports: [
     CommonModule,
