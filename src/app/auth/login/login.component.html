@@ -1,49 +1,58 @@
-<mat-card class="app-card">
-  <mat-card-header>
-    <mat-card-title>Login</mat-card-title>
-  </mat-card-header>
-  <mat-card-content>
-    <form class="app-form">
-      <table class="app-full-width" cellspacing="0">
-        <tr>
-          <td>
-            <mat-form-field class="app-full-width">
-              <input
-                matInput
-                placeholder="Username"
-                [(ngModel)]="username"
-                name="username"
-                required
-              />
-            </mat-form-field>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <mat-form-field class="app-full-width">
-              <input
-                matInput
-                placeholder="Password"
-                [(ngModel)]="password"
-                type="password"
-                name="password"
-                required
-              />
-            </mat-form-field>
-          </td>
-        </tr>
-      </table>
-    </form>
-    <mat-progress-spinner
-      class="app-margin"
-      [color]="color"
-      [mode]="mode"
-      [value]="value"
-      [style.display]="showSpinner ? 'block' : 'none'"
-    >
-    </mat-progress-spinner>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button (click)="login()" color="primary">Login</button>
-  </mat-card-actions>
-</mat-card>
+<div id="login-container">
+  <mat-card class="app-card">
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form class="app-form">
+        <table class="app-full-width" cellspacing="0">
+          <tr>
+            <td>
+              <mat-form-field class="app-full-width">
+                <input
+                  matInput
+                  placeholder="Username"
+                  [(ngModel)]="username"
+                  name="username"
+                  required
+                />
+              </mat-form-field>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <mat-form-field class="app-full-width">
+                <input
+                  matInput
+                  placeholder="Password"
+                  [(ngModel)]="password"
+                  type="password"
+                  name="password"
+                  required
+                />
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <mat-progress-spinner
+        class="app-margin"
+        [color]="color"
+        [mode]="mode"
+        [value]="value"
+        [style.display]="showSpinner ? 'block' : 'none'"
+      >
+      </mat-progress-spinner>
+    </mat-card-content>
+    <mat-card-footer class="card-footer">
+      <mat-card-actions>
+        <button mat-raised-button (click)="login()" color="primary">
+          Login
+        </button>
+      </mat-card-actions>
+      <div class="element-center">
+        <a routerLink="">Aun no estás registrado?</a>
+      </div>
+    </mat-card-footer>
+  </mat-card>
+</div>

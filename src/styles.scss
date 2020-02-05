@@ -9,3 +9,16 @@ body {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
+
+.element-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  * {
+    align-self: center;
+  }
+}
+
+a {
+  text-decoration: none;
+}

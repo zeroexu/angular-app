@@ -1,11 +1,21 @@
-.app-card {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  .app-full-width {
-    width: 100%;
-  }
-  button {
-    width: 100%;
+#login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  .app-card {
+    width: 400px;
+    height: 250px;
+    align-self: center;
+    .app-full-width {
+      width: 100%;
+    }
+    button {
+      width: 100%;
+    }
+    .card-footer {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
   }
 }
