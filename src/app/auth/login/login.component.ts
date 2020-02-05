@@ -14,7 +14,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {}
   login(): void {
     if (this.username == 'admin' && this.password == 'admin') {
-      this.router.navigate(['']);
+      this.router.navigate(['dashboard']);
     } else {
       alert('Invalid credentials');
     }
