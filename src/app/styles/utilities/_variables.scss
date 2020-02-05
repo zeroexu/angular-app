@@ -1,0 +1,38 @@
+// base
+$gap: 16px;
+$max-width: 1400px;
+
+// Size
+$desktop-width: 1200px;
+//
+$image-thumbnail-size: 140px;
+$image-medium-size: 280px;
+$image-big-size: 500px;
+
+// Colors
+$base-0: #FFFFFF;
+$base-1: #D9E1E1;
+$base-2: #B5C4C4;
+$base-3: #93A9A9;
+$base-4: #6F8C8C;
+$base-5: #507373;
+$base-6: #295454;
+$base-7: #003333;
+$base-8: #002626;
+
+// Font
+$font-color: $base-6;
+$font-size: $gap;
+$font-size-small: 12px;
+
+// Border
+$border-radius: $gap*0.5;
+$border-color: rgba($accent, 0.2);
+
+// Depth
+$nav-z: 1000;
+
+// Ease
+$ease-in: cubic-bezier(0.7, 0.0, 1.0, 0.3);
+$ease-out: cubic-bezier(0.0, 0.7, 0.3, 1.0);
+$ease-in-out: cubic-bezier(0.7, 0.0, 0.3, 1.0);
