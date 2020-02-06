@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
-import { ContainerModule } from '../commons/container/container.module';
+import { ProfileModule } from './profile/profile.module';
 
 @NgModule({
   declarations: [DashboardComponent],
@@ -12,7 +12,7 @@ import { ContainerModule } from '../commons/container/container.module';
     CommonModule,
     DashboardRoutingModule,
     GeneralToolBarModule,
-    ContainerModule
+    ProfileModule
   ]
 })
 export class DashboardModule {}

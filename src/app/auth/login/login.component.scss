@@ -1,3 +1,5 @@
+@import '../../dashboard/colors.scss';
+
 #login-container {
   display: flex;
   align-items: center;
@@ -11,6 +13,8 @@
     }
     button {
       width: 100%;
+      background-color: $primary;
+      color: $primary_inverse;
     }
     .card-footer {
       margin-right: 10px;
