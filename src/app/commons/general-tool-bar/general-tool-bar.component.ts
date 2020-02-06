@@ -5,4 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './general-tool-bar.component.html',
   styleUrls: ['./general-tool-bar.component.scss']
 })
-export class GeneralToolBarComponent {}
+export class GeneralToolBarComponent {
+  toSearch = 'search this';
+}

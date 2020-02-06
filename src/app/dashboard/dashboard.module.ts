@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { ProfileModule } from './profile/profile.module';
+import { BalanceModule } from './balance/balance.module';
 
 @NgModule({
   declarations: [DashboardComponent],
@@ -12,7 +13,8 @@ import { ProfileModule } from './profile/profile.module';
     CommonModule,
     DashboardRoutingModule,
     GeneralToolBarModule,
-    ProfileModule
+    ProfileModule,
+    BalanceModule
   ]
 })
 export class DashboardModule {}

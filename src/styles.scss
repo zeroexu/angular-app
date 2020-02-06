@@ -14,3 +14,18 @@ a {
   text-decoration: none;
   color: $primary;
 }
+
+body {
+  background-color: $tertiary;
+  margin: 0px;
+  padding: 0px;
+}
+
+.white-icon {
+  color: white;
+  cursor: pointer;
+}
+
+.mat-card {
+  margin-top: 10px;
+}

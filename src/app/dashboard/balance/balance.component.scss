@@ -1,0 +1,17 @@
+@import '../../dashboard/colors.scss';
+
+h2 {
+  background-color: $primary;
+  color: $primary_inverse;
+  text-align: right;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px;
+}
+
+.mat-card {
+  padding-bottom: 0px;
+  .mat-card-content {
+    margin-bottom: 0px;
+  }
+}
