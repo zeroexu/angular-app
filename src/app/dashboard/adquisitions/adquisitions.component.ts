@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-balance',
-  templateUrl: './balance.component.html',
-  styleUrls: ['./balance.component.scss']
+  selector: 'app-adquisitions',
+  templateUrl: './adquisitions.component.html',
+  styleUrls: ['./adquisitions.component.scss']
 })
-export class BalanceComponent implements OnInit {
+export class AdquisitionsComponent implements OnInit {
   folders = [
     {
       name: 'Photos',
@@ -20,7 +20,6 @@ export class BalanceComponent implements OnInit {
       updated: new Date('1/28/16')
     }
   ];
-
   constructor() {}
 
   ngOnInit() {}
