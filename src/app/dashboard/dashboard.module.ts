@@ -6,6 +6,8 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { ProfileModule } from './profile/profile.module';
 import { BalanceModule } from './balance/balance.module';
+import { ResultsViewerModule } from './results-viewer/results-viewer.module';
+import { NewsModule } from './news/news.module';
 
 @NgModule({
   declarations: [DashboardComponent],
@@ -14,7 +16,9 @@ import { BalanceModule } from './balance/balance.module';
     DashboardRoutingModule,
     GeneralToolBarModule,
     ProfileModule,
-    BalanceModule
+    BalanceModule,
+    ResultsViewerModule,
+    NewsModule
   ]
 })
 export class DashboardModule {}
